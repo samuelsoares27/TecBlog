@@ -1,0 +1,47 @@
+/*Limpar formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em; /*!16px*/
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+    font-weight:bold;
+	background: #f7b600;
+}
+
+ #area-cabecalho{   /*usei ID então é #*/
+	
+	padding: 25px;
+	text-align: center;
+}
+
+#area-cadastro{
+	padding: 50px;
+}
+
+h2{
+	color: black;
+	text-align: center;
+}
+.campo{
+	width: 300px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+ 	background-color: white;
+ 	color: #f7b600;
+ 	cursor: pointer;	
+}
+
+.h2-titulo{
+	font-size: 30px;
+	color: white;
+}
